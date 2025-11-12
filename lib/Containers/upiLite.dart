@@ -35,7 +35,6 @@ class Upilite extends StatelessWidget {
                   ),
                 ),
                 SizedBox(width: 25,),
-                Text("No failures")
               ],
             ),
 

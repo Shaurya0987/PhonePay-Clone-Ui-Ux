@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:phonepay/homePage.dart';
+import 'package:phonepay/Screens/SpalshScreen.dart';
+import 'package:phonepay/Screens/homePage.dart';
+import 'package:phonepay/Screens/root.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const Homepage(),
+      home: Splashscreen(),
     );
   }
 }
